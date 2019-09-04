@@ -12,3 +12,4 @@ public IWebElement Image => root.FindElement( By.XPath( ".//img[@class='carousel
 this is a change
 something
 and here
+this is a change
