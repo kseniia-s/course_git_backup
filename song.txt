@@ -5,3 +5,6 @@ omg
 this is a change
 something
 and here
+
+public string Title => root.FindElement( By.XPath( ".//div[@class='carousel-header_title']" ) ).Text;
+public IWebElement Image => root.FindElement( By.XPath( ".//img[@class='carousel-thumbnail-container__image']" ) );
