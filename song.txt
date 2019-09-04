@@ -10,5 +10,3 @@ public string Title => root.FindElement( By.XPath( ".//div[@class='carousel-head
 public IWebElement Image => root.FindElement( By.XPath( ".//img[@class='carousel-thumbnail-container__image']" ) );
 
 this is a change
-something
-and here
